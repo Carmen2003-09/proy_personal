@@ -12,15 +12,14 @@ body {
 }
 
 header {
-    position: relative;
-    padding: 20px;
+    display: flex;
+    align-items: center; /* Alineación vertical */
+    padding: 10px 20px; /* Espacio en el header */
 }
 
 .logo {
-    width: 30px; /* Aumenta el tamaño del logo */
-    position: absolute;
-    top: 5px; /* Distancia desde la parte superior */
-    left: 5px; /* Distancia desde la izquierda */
+    width: 80px; /* Tamaño del logo más grande */
+    margin-right: 20px; /* Espacio entre el logo y el menú */
     transition: transform 0.3s; /* Efecto de transición */
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2); /* Sombra suave para darle profundidad */
     border-radius: 5px; /* Bordes redondeados */
@@ -97,6 +96,7 @@ video {
     max-width: 25%; /* Ajusta el video al ancho del contenedor */
     border-radius: 5px; /* Bordes redondeados para los videos */
 }
+
 footer {
     text-align: center;
     padding: 10px;
@@ -106,3 +106,4 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
